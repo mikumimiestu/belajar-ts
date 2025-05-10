@@ -1,10 +1,10 @@
-# Tech Stack
-
 <div align="center">
   <img class="tech-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="50"/>
   <img class="tech-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="50"/>
   <img class="tech-logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="50"/>
 </div>
+
+# Apa Itu TypeScript?
 
 TypeScript adalah bahasa pemrograman yang dikembangkan oleh Microsoft. TypeScript adalah bahasa pemrograman yang dapat digunakan untuk mengembangkan aplikasi web, mobile, dan desktop. TypeScript memiliki fitur-fitur seperti tipe data statis, generasi kode, dan integrasi dengan framework dan library populer.
 
@@ -28,6 +28,19 @@ function greet(name: string): string {
 ```
 
 Nah, yang : string itu tipe data. Jadi lebih jelas, dan kalau salah input (misalnya number), langsung ketahuan sebelum dijalanin.
+
+## Perbedaan Utama
+
+| Fitur           | JavaScript (JS) | TypeScript (TS)       | React (TSX)                  |
+| --------------- | --------------- | --------------------- | ---------------------------- |
+| **Typing**      | Dinamis         | Statis                | Statis + Komponen            |
+| **Error Check** | Runtime         | Compile-time          | Compile-time                 |
+| **Syntax**      | `.js`           | `.ts`                 | `.tsx` (JSX + TS)            |
+| **Contoh**      | `let x = 10;`   | `let x: number = 10;` | `<Component prop={value} />` |
+
+TypeScript membantu menangkap error **sebelum kode dijalankan**, terutama berguna untuk proyek besar! 🚀
+
+---
 
 ## Kenapa TypeScript?
 
