@@ -1,18 +1,13 @@
-<!-- Logo TypeScript, JavaScript, React TSX -->
+# Tech Stack
 
-## TypeScript (TS)
-
-![TypeScript Logo](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg)
-
-## JavaScript (JS)
-
-![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
-
-## React TSX
-
-![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
-
-# Apa itu TypeScript?
+<style>
+ .tech-logo { margin: 0 10px; }
+</style>
+<div align="center">
+  <img class="tech-logo" src="js-logo.png" width="50"/>
+  <img class="tech-logo" src="ts-logo.svg" width="50"/>
+  <img class="tech-logo" src="react-logo.svg" width="55"/>
+</div>
 
 TypeScript adalah bahasa pemrograman yang dikembangkan oleh Microsoft. TypeScript adalah bahasa pemrograman yang dapat digunakan untuk mengembangkan aplikasi web, mobile, dan desktop. TypeScript memiliki fitur-fitur seperti tipe data statis, generasi kode, dan integrasi dengan framework dan library populer.
 
