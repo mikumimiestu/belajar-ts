@@ -1,8 +1,24 @@
+<!-- Logo TypeScript, JavaScript, React TSX -->
+
+## TypeScript (TS)
+
+![TypeScript Logo](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg)
+
+## JavaScript (JS)
+
+![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
+
+## React TSX
+
+![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+
 # Apa itu TypeScript?
 
 TypeScript adalah bahasa pemrograman yang dikembangkan oleh Microsoft. TypeScript adalah bahasa pemrograman yang dapat digunakan untuk mengembangkan aplikasi web, mobile, dan desktop. TypeScript memiliki fitur-fitur seperti tipe data statis, generasi kode, dan integrasi dengan framework dan library populer.
 
 TypeScript (TS) adalah versi upgrade dari JavaScript. Dia nambahin fitur static typing, alias kita bisa nentuin tipe data dari awal (kayak di Java, C#, dll), jadi lebih aman dan jelas.
+
+Pada modul ini akan membahas tentang dasar-dasar TypeScript, termasuk sintaks, tipe data, dan contoh penggunaan. Nantinya akan di implementasikan dengan menggunakan React Tsx
 
 ---
 
