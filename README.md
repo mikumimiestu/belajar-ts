@@ -45,7 +45,7 @@ Nah, yang : string itu tipe data. Jadi lebih jelas, dan kalau salah input (misal
 - Tipe Data Dasar
 - Fungsi dan Parameter Bertipe di TypeScript
 
-## Status
+---
 
 - [x] Tipe Data Dasar
 - [x] Fungsi dan Parameter Bertipe di TypeScript
