@@ -42,15 +42,11 @@ Nah, yang : string itu tipe data. Jadi lebih jelas, dan kalau salah input (misal
 
 ## Repository Ini Memiliki Materi:
 
-- Tipe Data Dasar
-- Fungsi dan Parameter Bertipe di TypeScript
-
----
-
 - [x] Tipe Data Dasar
 - [x] Fungsi dan Parameter Bertipe di TypeScript
 - [x] Interface dan Object
-- [ ] Class dan OOP di TypeScript
+- [x] Class dan OOP di TypeScript (Diambah sedikit penjelasan karena mulai kompleks)
+- [ ] Generic di TypeScript
 
 ...Masih banyak lagi!!!
 
