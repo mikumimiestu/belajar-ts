@@ -49,8 +49,10 @@ Nah, yang : string itu tipe data. Jadi lebih jelas, dan kalau salah input (misal
 
 - [x] Tipe Data Dasar
 - [x] Fungsi dan Parameter Bertipe di TypeScript
-- [ ] Interface dan Object
-      ... masih banyak lagi!
+- [x] Interface dan Object
+- [ ] Class dan OOP di TypeScript
+
+...Masih banyak lagi!!!
 
 ---
 
