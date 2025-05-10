@@ -4,6 +4,8 @@ TypeScript adalah bahasa pemrograman yang dikembangkan oleh Microsoft. TypeScrip
 
 TypeScript (TS) adalah versi upgrade dari JavaScript. Dia nambahin fitur static typing, alias kita bisa nentuin tipe data dari awal (kayak di Java, C#, dll), jadi lebih aman dan jelas.
 
+---
+
 ## Contoh pembeda simple
 
 ```bash
@@ -14,7 +16,7 @@ function greet(name) {
 // TypeScript
 function greet(name: string): string {
     return "Hello " + name;
-    }
+}
 ```
 
 Nah, yang : string itu tipe data. Jadi lebih jelas, dan kalau salah input (misalnya number), langsung ketahuan sebelum dijalanin.
@@ -37,3 +39,26 @@ Nah, yang : string itu tipe data. Jadi lebih jelas, dan kalau salah input (misal
 6. Jalankan perintah `tsc` untuk mengompilasi kode TypeScript menjadi kode JavaScript
 7. Jalankan perintah `node index.js` untuk menjalankan kode JavaScript
 8. Cek hasilnya di browser atau terminal
+
+## Repository Ini Memiliki Materi:
+
+- Tipe Data Dasar
+- Fungsi dan Parameter Bertipe di TypeScript
+
+## Status
+
+- [x] Tipe Data Dasar
+- [x] Fungsi dan Parameter Bertipe di TypeScript
+- [ ] Interface dan Object
+      ... masih banyak lagi!
+
+---
+
+Masih banyak materi yang belum dibahas, tapi saya akan terus menambahkan materi dan contoh kode. Jadi, jangan lupa untuk subscribe repository ini dan ikuti perkembangannya!!!
+
+---
+
+### Copyright
+
+Copyright (c) 2025 by Mikumiestu
+Distributed under the MIT License. See LICENSE.txt for more information.
