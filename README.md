@@ -10,7 +10,7 @@ TypeScript adalah bahasa pemrograman yang dikembangkan oleh Microsoft. TypeScrip
 
 TypeScript (TS) adalah versi upgrade dari JavaScript. Dia nambahin fitur static typing, alias kita bisa nentuin tipe data dari awal (kayak di Java, C#, dll), jadi lebih aman dan jelas.
 
-Pada modul ini akan membahas tentang dasar-dasar TypeScript, termasuk sintaks, tipe data, dan contoh penggunaan. Nantinya akan di implementasikan dengan menggunakan React Tsx
+Pada modul ini akan membahas tentang dasar-dasar TypeScript, termasuk sintaks, tipe data, dan lain-lain. Nantinya akan di implementasikan dengan menggunakan React Tsx
 
 ---
 
@@ -67,7 +67,8 @@ TypeScript membantu menangkap error **sebelum kode dijalankan**, terutama bergun
 - [x] Fungsi dan Parameter Bertipe di TypeScript
 - [x] Interface dan Object
 - [x] Class dan OOP di TypeScript (Diambah sedikit penjelasan karena mulai kompleks)
-- [ ] Generic di TypeScript
+- [x] Generic di TypeScript
+- [ ] Enum dan Type Narrowing
 
 ...Masih banyak lagi!!!
 
