@@ -1,0 +1,9 @@
+src/
+└── components/
+    └── ProductCard.tsx
+
+Penjelasan:
+interface Product adalah bentuk object-nya.
+ProductCardProps memastikan props item harus berupa object Product.
+Keyword "kategori": "makanan" as const biar sesuai literal type dari interface ("makanan" | "minuman" | "aksesoris").
+List produk dirender pake map() ke komponen ProductCard.

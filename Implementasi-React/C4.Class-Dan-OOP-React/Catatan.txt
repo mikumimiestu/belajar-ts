@@ -1,0 +1,10 @@
+src/
+│   ├── models/
+│   │   ├── Mahasiswa.ts
+│   │   └── MahasiswaAktif.ts
+
+Penjelasan Konsep:
+class dipakai untuk model/logic, bukan UI langsung.
+Mahasiswa punya property + method.
+MahasiswaAktif mewarisi Mahasiswa, lalu ditambah semester.
+Kita instansiasi class di App.tsx, lalu panggil metodenya seperti getStatus().

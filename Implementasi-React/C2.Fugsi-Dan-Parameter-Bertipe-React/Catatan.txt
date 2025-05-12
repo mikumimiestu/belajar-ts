@@ -3,3 +3,8 @@ Struktur Project
 src/
 └── components/
     └── UserCard.tsx
+
+Penjelasan Penting:
+onToggleFollow itu fungsi yang dikirim sebagai props dari App.tsx ke UserCard.tsx.
+Kita gunain interface UserCardProps buat mendefinisikan bentuk data + fungsi.
+Ini praktek real penggunaan TypeScript: aman, terstruktur, dan mudah dipahami.

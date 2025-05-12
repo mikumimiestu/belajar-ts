@@ -1,0 +1,21 @@
+src/
+│   ├── models/
+│   │   └── KaryawanModel.ts
+│   ├── components/
+│   │   └── KaryawanInfo.tsx
+│   ├── App.tsx
+│   └── main.tsx
+
+Enum:
+Untuk mengelompokkan data yang punya nilai tetap dan terbatas. Di kasus ini kamu pakai enum StatusKerja yang isinya status seperti:
+enum StatusKerja {
+  Tetap = "Tetap",
+  Kontrak = "Kontrak",
+  Magang = "Magang"
+}
+
+Type Narrowing:
+Teknik TypeScript buat memastikan tipe secara lebih spesifik berdasarkan kondisi. Misalnya:
+if (karyawan.status === StatusKerja.Magang) {
+  // Di sini kita tahu pasti ini "Magang", jadi bisa akses properti tertentu
+}

@@ -42,7 +42,6 @@ export default defineConfig({
     tailwindcss()],
 })
 
-
 ==========================
 Rubah isi pada index.css menjadi :
 ==========================

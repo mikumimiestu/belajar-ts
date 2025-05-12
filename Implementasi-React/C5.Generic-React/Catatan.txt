@@ -1,0 +1,10 @@
+src/
+├── components/
+│   └── GenericList.tsx
+├── App.tsx
+
+Penjelasan:
+Konsep	Penjelasan
+GenericList<T>	T adalah type yang fleksibel, bisa string, number, object, dll.
+renderItem	Function yang menentukan bagaimana 1 item dirender, tapi tetap ketat tipe.
+Reusable	Komponen ini bisa dipakai buat list apa aja: nama, produk, buku, dsb.
