@@ -1,0 +1,9 @@
+Struktur Project
+
+my-app/
+├── src/
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── components/
+│       └── ProfileCard.tsx

@@ -1,0 +1,60 @@
+Install Node.js (Kalau belum)
+==========================
+Jika Installasi berhasil, selanjutnya jalankan pada terminal :
+
+node -v | (cek versi node)
+npm -v | (cek versi npm)
+
+Kalau belum, download di sini: https://nodejs.org
+
+==========================
+
+Buat Project React + TypeScript
+==========================
+
+npm create vite@latest my-app -- --template react-ts        |   <-- ini akan membuat project baru dengan nama my-app dengan template react-ts vite
+cd my-app                                                   |   <-- masuk ke direktori project
+npm install                                                 |   <-- install semua dependensi
+
+"Ganti my-app dengan nama project yang kamu inginkan"
+==========================
+
+=========================
+Installasi TailwindCSS
+==========================
+
+npm install tailwindcss @tailwindcss/vite
+
+==========================
+
+==========================
+Rubah isi pada vite.config.js menjadi :
+==========================
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss()],
+})
+
+
+==========================
+Rubah isi pada index.css menjadi :
+==========================
+
+@import "tailwindcss";
+
+==========================
+
+Jalankan dengan perintah:
+==========================
+
+npm run dev
+
+buka di browser di alamat http://localhost:5173
+==========================
