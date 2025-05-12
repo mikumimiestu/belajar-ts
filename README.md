@@ -68,9 +68,8 @@ TypeScript membantu menangkap error **sebelum kode dijalankan**, terutama bergun
 - [x] Interface dan Object
 - [x] Class dan OOP di TypeScript (Diambah sedikit penjelasan karena mulai kompleks)
 - [x] Generic di TypeScript
-- [ ] Enum dan Type Narrowing
-
-...Masih banyak lagi!!!
+- [x] Enum dan Type Narrowing
+- [x] Implementasi React TypeScript
 
 ---
 
